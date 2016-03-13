@@ -1,23 +1,27 @@
+
 # node-megabus
 
-[![NPM](https://nodei.co/npm/megabus.png?downloads=false&stars=false)](https://npmjs.org/package/megabus) [![NPM](https://nodei.co/npm-dl/megabus.png?months=6)](https://npmjs.org/package/megabus)
-
-`megabus` is [Megabus (US)](http://us.megabus.com/) ticket finder library for [Node.js](http://nodejs.org/).
+`megabus` is [Megabus (EU)](http://uk.megabus.com/) ticket finder library for [Node.js](http://nodejs.org/).  
+This library is modified to use Megabus Europe, the original proyect can be found at [pilwon](https://github.com/pilwon/node-megabus) repository.
 
 
 ## Installation
-
+The original library can be installed with npm and replace the folders examples and lib with provided in this repository.
     $ npm install megabus
 
+Second option is download this repository and with the terminal in the same folder install required packages.
+    $ npm install node-fetch moment lodash cheerio
 
 ## Usage
 
-* [Examples](https://github.com/pilwon/node-megabus/tree/master/examples)
+* [Examples](https://github.com/brincowale/node-megabus/tree/master/examples)
 
+Examples can be run from terminal:
+    $ node examples/index.js
 
 ## Credits
 
-  See the [contributors](https://github.com/pilwon/node-megabus/graphs/contributors).
+  See the [contributors](https://github.com/brincowale/node-megabus/graphs/contributors).
 
 
 ## License
@@ -45,5 +49,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </pre>
-
-[![Analytics](https://ga-beacon.appspot.com/UA-47034562-28/node-megabus/readme?pixel)](https://github.com/pilwon/node-megabus)

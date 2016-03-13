@@ -6,17 +6,17 @@ This library is modified to use Megabus Europe, the original proyect can be foun
 
 
 ## Installation
-The original library can be installed with npm and replace the folders examples and lib with provided in this repository.
+The original library can be installed with npm and replace the folders examples and lib with provided in this repository.  
     $ npm install megabus
 
-Second option is download this repository and with the terminal in the same folder install required packages.
+Second option is download this repository and with the terminal in the same folder install required packages.  
     $ npm install node-fetch moment lodash cheerio
 
 ## Usage
 
 * [Examples](https://github.com/brincowale/node-megabus/tree/master/examples)
 
-Examples can be run from terminal:
+Examples can be run from terminal:  
     $ node examples/index.js
 
 ## Credits

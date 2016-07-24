@@ -1,6 +1,8 @@
 
 # node-megabus
 
+NOTE: Megabus Europe has been sold to Flixbus. This script should be updated to use the Megabus UK website. The currency also need to be replaced, to use pounds instead of euros.
+
 `megabus` is [Megabus (EU)](http://uk.megabus.com/) ticket finder library for [Node.js](http://nodejs.org/).  
 This library is modified to use Megabus Europe, the original proyect can be found at [pilwon](https://github.com/pilwon/node-megabus) repository.
 
